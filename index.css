@@ -1,0 +1,42 @@
+header{
+ background-color: rgb(156, 211, 193);
+    border-radius: 8px;
+    box-shadow: opx 6px 31px -6px black;
+    display: grid ;
+    grid-template-columns: 1fr 5fr;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.Destaques{
+    box-shadow: opx 6px 31px -6px black;
+    display: grid ;
+    grid-template-columns: 1fr 5fr;
+    padding: 100px;
+    
+}
+
+footer{
+    box-shadow: opx 6px 31px -6px black;
+    display: flex ;
+    justify-content: end;
+}
+
+header img{
+    height: 110px;
+}
+
+.Destaques{
+    display: flex;
+    justify-content: space-between;
+}
